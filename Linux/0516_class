@@ -1,0 +1,67 @@
+cp /dev/null test		//특정 파일의 용량을 0byte로 만들고 싶을때.
+
+find /home/wikisoft/bafckup/ -mtime +6 -exec rm -f {} \;
+
+백업 기술
+	1. 스케줄러를 이용한 자동 백업
+	2. 백업 절차 자동 실행(쉘프로그램)
+	3. 주요 명령어
+		- date
+		- find
+		- tar
+		- crontab
+모니터링 개요
+
+모니터링 대상
+1. 시스템 기본 작동상태 모니터링
+2. 시스템 리소스 모니터링
+3. 네트워크 모니터링
+4. 보안 모니터링
+
+모니터링 방법
+1. 기본 명령어로 확인
+2. 파일을 이용한 모니터링
+3. Tools / 응용 명령어 이용
+
+기본 명령어
+
+메모리 : free / vmstat / demidecode
+디스크 : df / du
+CPU : ps
+네트워크 : netstat / ifconfig
+사용자 : w / last
+기타 : uptime
+
+sar
+system activity monitor(시스템 활동 모니터링)
+cpu / memory 사용률
+
+iostat
+Dist I/P stattistics
+
+top
+프로세스 작업 모니터링
+통합 모니터링
+기본제공
+
+설치
+yum install sysstat
+
+top 의 검색결과 중 id는 idle의 줄임말
+
+/usr/lib64/sa/sa1
+
+sar 1 10		//1초마다 총 10건의 결과를 도출한다.
+
+sa16			//끝에 숫자는 날짜를 의미한다.
+sar -f /var/log/sa/sa날짜	//지나간 날짜의 파일정보를 볼수 있다.
+
+바이너리 파일로 만드는 이유 : 변조 할 수 없게 만들기 위해서.
+저런 중요한 파일들을 볼땐 특정 명령어를 통해 확인하는거다.
+
+iostat
+디스크 입출력 통계
+디바이스가 많지 않아 간단하게 보여줌
+민감한 정보를 죽일때 사용함
+
+sa로그 쌓이는곳 /var/log/sa

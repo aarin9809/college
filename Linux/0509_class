@@ -1,0 +1,72 @@
+# awk -F: '{if ($2=="") print $1}' /etc/shadow
+# cat /etc/shadow | awk -F: '{if ($2=="") print $1}'
+
+# free | awk '{if ($1=="Mem:") print $4}'
+
+* 자신의 서버(PC) 상태 분석
+- 비어있는 패스워드 도출 *****
+        # awk -F: '{if ($2=="") print $1}' /etc/passwd
+		=> awk
+		=> cat
+		-F는 F앞에 있는 특수문자를 델리미터로(구분자)로 사용하겠다 라는 의미다.
+* find command
+# find / -ctime -1 //하루동안 만들어진 파일
+# find / -ctime -1 | wc -l // wc는 결과 갯수를 세주는 명령어 (하루에 생성되고 변경된 사항임) 
+# find / -nouser // 파일에 소유자가 없는 경우의 파일
+# find /home/inhatc -user root
+# wget으로 가져온 데이터는 소유자가 숫자다.
+
+
+
+
+
+파일의 정보를 확인 할 수 있는 명령어들
+명령어 => |grep keyword
+cat + filename
+cat + filename | grep keyword
+grep keyword filename
+
+20번째와 21번째는 같은 용도이다.
+20번째 명령어는 하나의 파일만 추출해낼때 사용한다.
+find / 명령어는 하위 파일들까지 전부 찾아낸다.
+- setuid, setgid, sticky 비트파일 검색
+	# find . -perm -4000 -o -perm -2000 -o -perm -1000 -depth -print
+	# find / -user root -perm - 4000 -exec ls -l {} \; 2> /dev/null
+	
+password 정보는 passwd가 아니라 shadow파일에 저장되어 있다. 헷갈리지말것.
+
+비밀번호가 설정되어있지 않은 유저가 가지는 특성은 패스워드 정보가 들어가야할 자리에 !!가 들어간다.
+
+chown -R inhatc:inhatc + backupfile
+백업을 할땐 되도록 root계정으로 백업을 해라. 제3자가 있을 수 있기 때문에 root로 백업을 하게 되면 알아서 걸러진다.
+
+
+shadow파일의 권한은 000으로 아무도 고칠수 없는데 어떻게 inhatc 사용자가 본인의 비밀번호를 바꿀수 있는가?
+그 이유는 그 일처리를 대신해주는 놈이 있기 때문이다.
+그 역할을 하는게 바로 sudo다.
+
+setuid로 만들어진 애는 퍼미션 첫자리가 s다. setgid는 가운데가 s다.
+
+passwd 파일에서 0:0인 파일은 root의 기능을 수행할 수 있는 유저다. 조심할 것.
+
+BackUp & Restore(recovery)
+# tar -zcvf + destination.tar.gz + source		//destination이름으로 source(경로)에 있는 파일을 묶을거다. 묶을땐 묶을 파일의 상위 디렉토리로 가서 묶는거다.
+# tar -zxvf + destination.tar.gz + source		//파일 풀기.
+# tar -ztvf + destination.tar.gz + source		//이 tar파일이 어떻게 풀릴거다. 라고 보여주는 명령어
+압축할때 절대경로로 했을때랑 상대경로로 했을때의 차이는 압축을 풀때 원하지않는 path들이 포함되어 풀리는 일이 생겨버린다.
+
+mysqldump 명령어는 온라인중에 있는 데이터베이스를 백업받는 명령어다. mysqldump -u root -p sakila > sakila20230509.sql
+mysql -u root -p < sakila20230509.sql					// 리커버리 명령
+
+
+0509 과제
+1. backup.sh 라는 이름으로 오늘 워크디렉토리에 쉘 스크립트 작성
+	1) shell 선언
+	1-1) date 선언
+	2) backup(inhatc)
+	3) backup(db) sakila
+	4) 이동 /home/inhatc/backup
+	ex) mv *.tar / *.sql / *.gz ./backup
+	5) 3일치 백업파일이 쌓이게끔 해놓기.
+	5-1) find / exec 어쩌고 명령어 사용해서 3일치만 남겨놓게끔 하기.
+

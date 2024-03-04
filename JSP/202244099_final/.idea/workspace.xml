@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="project2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb57e360-ab38-44b3-9e02-cdd67a45ea8e" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JavaProgramming/JDBC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OS/OS230921.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OS/OS231102.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OracleDB/DB231102.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SW/SW230909.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaProgramming/230904.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/build/classes/MainFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/build/classes/MainFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/build/classes/MainFrame.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/src/MainFrame.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeansProjects/JavaApplication1/src/MainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/OS230907.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/OS230907.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OracleDB/DB230914.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../OracleDB/DB230914.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_structure/.idea/data_structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_structure/.idea/data_structure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_structure/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_structure/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_structure/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_structure/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../database/lastExam.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2Ypslp2lU3kNHK7fnL4bWf7UK3s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.16" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="project2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/project2_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c919848a-1e2b-4f91-8939-ccb5b983eb83" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="project2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="bb57e360-ab38-44b3-9e02-cdd67a45ea8e" name="변경" comment="" />
+      <created>1701234009771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701234009771</updated>
+      <workItem from="1701234010907" duration="422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

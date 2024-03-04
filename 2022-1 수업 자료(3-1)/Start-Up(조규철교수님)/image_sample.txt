@@ -1,0 +1,186 @@
+========== man_walk_1.jpg ==========
+[degree] 80.73977846882852 (Stand)
+[linked] 0 (89, 78) <=> 1 (141, 131)
+[not linked] 0 (89, 78) <=> 15 None
+[linked] 0 (89, 78) <=> 16 (89, 65)
+[linked] 1 (141, 131) <=> 2 (134, 131)
+[linked] 1 (141, 131) <=> 5 (149, 131)
+[linked] 1 (141, 131) <=> 8 (171, 315)
+[linked] 8 (171, 315) <=> 9 (149, 315)
+[linked] 8 (171, 315) <=> 12 (186, 302)
+[linked] 9 (149, 315) <=> 10 (171, 433)
+[linked] 12 (186, 302) <=> 13 (231, 420)
+[linked] 2 (134, 131) <=> 3 (141, 249)
+[linked] 3 (141, 249) <=> 4 (119, 288)
+[linked] 5 (149, 131) <=> 6 (186, 183)
+[linked] 6 (186, 183) <=> 7 (171, 262)
+[linked] 10 (171, 433) <=> 11 (178, 538)
+[linked] 13 (231, 420) <=> 14 (290, 525)
+[not linked] 15 None <=> 17 None
+[linked] 16 (89, 65) <=> 18 (119, 65)
+[linked] 14 (290, 525) <=> 21 (298, 525)
+[linked] 19 (313, 538) <=> 21 (298, 525)
+[linked] 20 (313, 525) <=> 21 (298, 525)
+[linked] 11 (178, 538) <=> 24 (186, 551)
+[linked] 22 (149, 538) <=> 24 (186, 551)
+[linked] 23 (149, 538) <=> 24 (186, 551)
+
+========== man_walk_2.jpg ==========
+[degree] 85.96228937902286 (Stand)
+[linked] 0 (148, 65) <=> 1 (191, 143)
+[not linked] 0 (148, 65) <=> 15 None
+[linked] 0 (148, 65) <=> 16 (154, 52)
+[linked] 1 (191, 143) <=> 2 (172, 156)
+[linked] 1 (191, 143) <=> 5 (203, 143)
+[linked] 1 (191, 143) <=> 8 (179, 313)
+[linked] 8 (179, 313) <=> 9 (197, 313)
+[linked] 8 (179, 313) <=> 12 (179, 313)
+[linked] 9 (197, 313) <=> 10 (185, 430)
+[linked] 12 (179, 313) <=> 13 (104, 378)
+[linked] 2 (172, 156) <=> 3 (166, 260)
+[linked] 3 (166, 260) <=> 4 (123, 286)
+[linked] 5 (203, 143) <=> 6 (197, 234)
+[linked] 6 (197, 234) <=> 7 (179, 313)
+[linked] 10 (185, 430) <=> 11 (209, 547)
+[linked] 13 (104, 378) <=> 14 (92, 508)
+[not linked] 15 None <=> 17 None
+[linked] 16 (154, 52) <=> 18 (185, 65)
+[linked] 14 (92, 508) <=> 21 (98, 534)
+[linked] 19 (67, 508) <=> 21 (98, 534)
+[linked] 20 (74, 521) <=> 21 (98, 534)
+[linked] 11 (209, 547) <=> 24 (216, 560)
+[linked] 22 (185, 547) <=> 24 (216, 560)
+[linked] 23 (185, 547) <=> 24 (216, 560)
+
+========== man_stand.jpg ==========
+[degree] 86.82016988013577 (Stand)
+[linked] 0 (205, 45) <=> 1 (238, 99)
+[not linked] 0 (205, 45) <=> 15 None
+[linked] 0 (205, 45) <=> 16 (212, 36)
+[linked] 1 (238, 99) <=> 2 (231, 90)
+[linked] 1 (238, 99) <=> 5 (238, 99)
+[linked] 1 (238, 99) <=> 8 (244, 207)
+[linked] 8 (244, 207) <=> 9 (231, 207)
+[linked] 8 (244, 207) <=> 12 (250, 207)
+[linked] 9 (231, 207) <=> 10 (238, 279)
+[linked] 12 (250, 207) <=> 13 (257, 288)
+[not linked] 2 (231, 90) <=> 3 None
+[not linked] 3 None <=> 4 (160, 189)
+[linked] 5 (238, 99) <=> 6 (199, 153)
+[linked] 6 (199, 153) <=> 7 (167, 198)
+[linked] 10 (238, 279) <=> 11 (238, 351)
+[linked] 13 (257, 288) <=> 14 (250, 378)
+[not linked] 15 None <=> 17 None
+[linked] 16 (212, 36) <=> 18 (238, 45)
+[linked] 14 (250, 378) <=> 21 (250, 387)
+[linked] 19 (218, 378) <=> 21 (250, 387)
+[linked] 20 (225, 387) <=> 21 (250, 387)
+[linked] 11 (238, 351) <=> 24 (244, 351)
+[linked] 22 (205, 360) <=> 24 (244, 351)
+[linked] 23 (205, 360) <=> 24 (244, 351)
+
+========== man_sit.jpg ==========
+[degree] 42.38045120460533 (Bend Down)
+[linked] 0 (175, 144) <=> 1 (219, 180)
+[not linked] 0 (175, 144) <=> 15 None
+[linked] 0 (175, 144) <=> 16 (182, 135)
+[linked] 1 (219, 180) <=> 2 (211, 180)
+[linked] 1 (219, 180) <=> 5 (226, 180)
+[linked] 1 (219, 180) <=> 8 (299, 253)
+[linked] 8 (299, 253) <=> 9 (299, 253)
+[linked] 8 (299, 253) <=> 12 (299, 262)
+[linked] 9 (299, 253) <=> 10 (211, 280)
+[linked] 12 (299, 262) <=> 13 (219, 289)
+[linked] 2 (211, 180) <=> 3 (197, 226)
+[linked] 3 (197, 226) <=> 4 (160, 226)
+[linked] 5 (226, 180) <=> 6 (204, 244)
+[linked] 6 (204, 244) <=> 7 (153, 235)
+[linked] 10 (211, 280) <=> 11 (233, 352)
+[linked] 13 (219, 289) <=> 14 (248, 379)
+[not linked] 15 None <=> 17 None
+[linked] 16 (182, 135) <=> 18 (204, 135)
+[linked] 14 (248, 379) <=> 21 (255, 388)
+[linked] 19 (211, 379) <=> 21 (255, 388)
+[linked] 20 (219, 388) <=> 21 (255, 388)
+[linked] 11 (233, 352) <=> 24 (233, 361)
+[linked] 22 (204, 361) <=> 24 (233, 361)
+[linked] 23 (204, 352) <=> 24 (233, 361)
+
+========== man_down.jpg ==========
+[degree] 6.079588957838487 (Bend Down)
+[linked] 0 (338, 102) <=> 1 (395, 65)
+[not linked] 0 (338, 102) <=> 15 None
+[linked] 0 (338, 102) <=> 16 (338, 93)
+[linked] 1 (395, 65) <=> 2 (395, 55)
+[linked] 1 (395, 65) <=> 5 (395, 74)
+[linked] 1 (395, 65) <=> 8 (564, 83)
+[linked] 8 (564, 83) <=> 9 (564, 74)
+[linked] 8 (564, 83) <=> 12 (564, 93)
+[linked] 9 (564, 74) <=> 10 (522, 223)
+[linked] 12 (564, 93) <=> 13 (550, 233)
+[not linked] 2 (395, 55) <=> 3 None
+[not linked] 3 None <=> 4 None
+[linked] 5 (395, 74) <=> 6 (310, 130)
+[linked] 6 (310, 130) <=> 7 (239, 130)
+[linked] 10 (522, 223) <=> 11 (493, 307)
+[linked] 13 (550, 233) <=> 14 (522, 363)
+[not linked] 15 None <=> 17 None
+[linked] 16 (338, 93) <=> 18 (338, 74)
+[linked] 14 (522, 363) <=> 21 (536, 373)
+[linked] 19 (451, 373) <=> 21 (536, 373)
+[linked] 20 (465, 373) <=> 21 (536, 373)
+[linked] 11 (493, 307) <=> 24 (507, 317)
+[linked] 22 (437, 326) <=> 24 (507, 317)
+[linked] 23 (437, 326) <=> 24 (507, 317)
+
+Process finished with exit code 0
+
+nose_x
+nose_y
+neck_x
+neck_y
+rightShoulder_x
+rightShoulder_y
+rightElbow_x
+rightElbow_y
+rightWrist_x
+rightWrist_y
+leftShoulder_x
+leftShoulder_y
+leftElbow_x
+leftElbow_y
+leftWrist_x
+leftWrist_y
+midHip_x
+midHip_yrightHip_x
+rightHip_y
+rightKnee_x
+rightKnee_y
+rightAnkle_x
+rightAnkle_y
+leftHip_x
+leftHip_y
+leftKnee_x
+leftKnee_y
+leftAnkle_x
+leftAnkle_y
+rightEye_x
+rightEye_y
+leftEye_x
+leftEye_y
+rightEar_x
+rightEar_y
+leftEar_x
+leftEar_y
+leftBigToe_x
+leftBigToe_y
+leftSmallToe_x
+leftSmallToe_y
+leftHeel_x
+leftHeel_y
+rightBigToe_x
+rightBigToe_y
+rightSmallToe_x
+rightSmallToe_y
+rightHeel_x
+rightHeel_y

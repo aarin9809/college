@@ -1,0 +1,20 @@
+# week09_02_chap06_04_self
+
+# SRP (단일 책임의 원칙) 위배
+def push(data):
+    global SIZE, stack, top
+    if top == SIZE-1:
+        print("스택이 꽉 찼습니다.")
+        return
+    top += 1
+    stack[top] = data
+
+
+SIZE = 5
+stack = ["커피", "녹차", "꿀물", "콜라", None]
+top = 3
+
+print(stack)
+push("환타")
+print(stack)
+push("게토레이")
